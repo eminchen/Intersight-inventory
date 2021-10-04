@@ -13,4 +13,14 @@ variable "target_organization" {
     default = "Demo-Deployment"
 }
 
-intersight_apikey
+variable "intersight_apikey" {
+    description = "API Key for Terraform Demo Account"
+    type = string
+    sensitive = true
+}
+
+variable "intersight_secretkey" {
+    description = "Contents of secret key PEM file"
+    type = string
+    sensitive = true
+}
