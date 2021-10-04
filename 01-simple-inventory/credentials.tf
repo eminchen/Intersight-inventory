@@ -2,11 +2,11 @@
 ## Generate API key to obtain the API Key and PEM file
 
 # APIKEY string required to be provided in a secure method
-variable "intersight_apikey" {
-    description = "API Key for Terraform Demo Account"
-    type = string
-    sensitive = true
-}
+#variable "intersight_apikey" {
+#    description = "API Key for Terraform Demo Account"
+#    type = string
+#    sensitive = true
+#}
 
 ## Two options exist for specifying the secret key.
 
@@ -19,11 +19,11 @@ variable "intersight_apikey" {
 # }
 
 ### Option 2: Provide entire contents of PEM file as a string
-variable "intersight_secretkey" {
-    description = "Contents of secret key PEM file"
-    type = string
-    sensitive = true
-}
+#variable "intersight_secretkey" {
+#    description = "Contents of secret key PEM file"
+#    type = string
+#    sensitive = true
+#}
 
 variable "intersight_endpoint" {
     description = "Intersight API endpoint"
