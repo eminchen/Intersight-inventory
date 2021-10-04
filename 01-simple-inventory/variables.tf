@@ -12,3 +12,5 @@ variable "target_organization" {
     type = string
     default = "Demo-Deployment"
 }
+
+intersight_apikey
