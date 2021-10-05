@@ -20,8 +20,8 @@ data "intersight_organization_organization" "default" {
     name = "default"
 }
 
-# Create a new organization resource for this demo
-#resource "intersight_organization_organization" "target" {
-#    description = "Terraform Deployed"
-#    name = var.target_organization
-#}
+ Create a new organization resource for this demo
+resource "intersight_organization_organization" "target" {
+    description = "Terraform Deployed"
+    name = var.target_organization
+}
