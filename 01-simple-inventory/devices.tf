@@ -9,6 +9,6 @@
 # submitted as an issue (#48)
 ##
 # resource "intersight_asset_device_claim" "C240-M4L-Lab" {
-#     serial_number = var.c240_m4l_lab_device_id
+#     serial_number = var.serial
 #     target_type = var.c240_m4l_lab_claim_code
 # }
