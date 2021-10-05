@@ -2,7 +2,7 @@
 ### can be overwritten with a CLI environment variable of the format:
 ###      TF_VAR_target_organization
 
-variable "serial" {
+variable "serverserial" {
     description = "C240-M4L-Lab Service Serial Number"
     type = string
 }
