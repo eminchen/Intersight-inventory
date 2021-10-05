@@ -2,8 +2,8 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/ciscodevnet/intersight" {
-  version     = "1.0.1"
-  constraints = "1.0.1"
+  version     = "1.0.13"
+  constraints = "1.0.13"
   hashes = [
     "h1:N8EwdOAn8vkMgI++J267g3usVYZ6mReYV8nO8j3mSJY=",
     "zh:072fc9544bda909d010b53e7dc2f90aebcddfd14778c6e55f0b00cfae3acd8b3",
