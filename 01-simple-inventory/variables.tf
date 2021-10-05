@@ -10,7 +10,7 @@ variable "serial" {
 variable "target_organization" {
     description = "Demo Organization for Deployments"
     type = string
-    default = "Demo-Deployment"
+    default = "default"
 }
 
 variable "intersight_apikey" {
